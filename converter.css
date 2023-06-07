@@ -1,0 +1,71 @@
+body {
+    margin: 10px auto;
+    background-color:3a5a40;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: auto;
+    font-family:'Goldman'
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+#totalContainer {
+    width: 600px;
+    height: 600px;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#topContainer { 
+    margin: auto;
+    height: 300px;
+    background: tan;
+}
+
+#selectFields {
+    display: flex;
+    flex-direction: column;
+}
+
+#selectFieldsFocused {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+select, input, label, p {
+    height: 20px;
+}
+
+button {
+    margin: auto;
+    width: 100px;
+}
+
+#selectboxes {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+#bottomContainer {
+    margin: auto;
+    height: 300px;
+    background: tan;
+    
+}
+h3 {
+    margin: 0 0 0 20px;
+}
+#output-El {
+    margin: 0px;
+    height: 250px;
+}
